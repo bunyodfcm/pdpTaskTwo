@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import One from "../test/One";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  return <div>
+    <One/>
+  </div>;
+};
 
-export default App
+export default App;
